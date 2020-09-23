@@ -13,8 +13,8 @@ def main():
         print("Round " +str(rounds))
         player1 = dice_roll()
         player2 = dice_roll()
-        print("Player 1 roll: " +str(player1))
-        print("Player 2 roll: " +str(player2))
+        print("Player 1 rolls: " +str(player1))
+        print("Player 2 rolls: " +str(player2))
         rounds = rounds + 1
 
         if player1 == player2:
